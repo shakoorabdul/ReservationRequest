@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 30px;
+    color: #000;
+}
+
+h1 {
+    color: #0000D0; /* Blue header matching screenshot */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+main {
+    width: 650px;
+}
+
+fieldset {
+    border: 1px solid #7f9db9;
+    margin-bottom: 15px;
+    padding: 10px 15px 15px 15px;
+}
+
+legend {
+    color: #0000D0;
+    font-weight: bold;
+    padding: 0 4px;
+}
+
+.row {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.row label:first-child {
+    width: 100px;
+    font-size: 14px;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 3px;
+    font-size: 14px;
+    border: 1px solid #7f9db9;
+    border-radius: 2px;
+}
+
+select {
+    padding: 2px;
+    font-size: 14px;
+}
+
+.inline-label {
+    width: auto !important;
+    margin-right: 15px;
+    margin-left: 3px;
+    font-size: 14px;
+}
+
+.checkbox-row {
+    margin-left: 0;
+}
+
+.error {
+    color: #cc0000; /* Red error messages next to controls */
+    font-size: 13px;
+    margin-left: 15px;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+input[type="submit"] {
+    padding: 3px 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 25px;
+    font-size: 13px;
+}
