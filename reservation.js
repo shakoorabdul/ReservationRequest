@@ -8,10 +8,10 @@ document.addEventListener("DOMContentLoaded", () => {
     // Email regex pattern constant
     const emailPattern = /^[\w\.\-]+@[\w\.\-]+\.[a-zA-Z]{2,4}$/;
 
-    // Requirement 2: Move focus to the "Arrival date" text box
+    // Move focus to the "Arrival date" text box
     $("#arrival_date").focus();
 
-    // Requirement 3: Submit event handler for form validation
+    // Submit event handler for form validation
     $("#reservation_form").addEventListener("submit", event => {
         let isValid = true;
 
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let email = $("#email").value;
         let phone = $("#phone").value;
 
-        // Requirement 3: Trim all entries and write trimmed values back to controls
+        // Trim all entries and write trimmed values back to controls
         arrivalDate = arrivalDate.trim();
         nights = nights.trim();
         name = name.trim();
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
             isValid = false;
         }
 
-        // Requirement 3: Cancel form submission if entries are invalid
+        // Cancel form submission if entries are invalid
         if (!isValid) {
             event.preventDefault();
         }
